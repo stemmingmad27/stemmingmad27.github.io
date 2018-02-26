@@ -185,7 +185,25 @@
 ];
 
 $(document).ready(function(){
-$(".output").html("test output");
+//$(".output").html("test output");
+var html="<table class= 'table table-striped table-hover'>"+
+"<tr>"+
+"<th>picture</th>"+
+"<th>name</th>"+
+"<th>age</th>"+
+"<th>owner</th>"+
+"<th>breed</th>"+
+"<th>color</th>"+
+"<th>hair length</th>"+
+"<th>outdoor ?</th>"+
+"<th>wild ?</th>"+
+
+"</tr>";
+
+//here is the loop
+
+html += "</table>";
+(".output").html(html);
 });
 
 
