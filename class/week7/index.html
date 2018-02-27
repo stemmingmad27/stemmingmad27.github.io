@@ -116,10 +116,7 @@ $(document).ready(function(){
     "<th>name</th>"+
     "<th>owner</th>"+
   "</tr>";
-//here is the loop
-html += "</table>";
-$(".output").html(html);
-});
+
 
 for(var i=0;i<dogs.length;i++){
   console.log("i "+i);
@@ -130,6 +127,10 @@ for(var i=0;i<dogs.length;i++){
   "<td>"+dogs[i].owner+"</td>"+
 "</tr>";
 }
+
+html += "</table>";
+$(".output").html(html);
+});
 
 </script>
 
