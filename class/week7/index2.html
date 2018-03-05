@@ -186,6 +186,22 @@ $(document).ready(function(){
 html += "</table>";
 $(".output").html(html);
 });
+
+for(var i=0;i<cats.length;i++){
+  console.log("i "+i);
+  html+= "<tr>"+
+  "<td>picture</td>"+
+  "<td>"+cats[i].name+"</td>"+
+  "<td>"+cats[i].age+"</td>"+
+  "<td>"+cats[i].owner+"</td>"+
+  "<td>"+cats[i].breed+"</td>"+
+  "<td>"+cats[i].color+"</td>"+
+  "<td>"+cats[i].hairLength+"h</td>"+
+  "<td>"+cats[i].isOutdoor+"</td>"+
+  "<td>"+cats[i].isFoundInWild+"</td>"+
+"</tr>";
+}
+
 </script>
 
   </body>
