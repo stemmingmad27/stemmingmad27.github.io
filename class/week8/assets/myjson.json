@@ -1,0 +1,31 @@
+[
+{
+  "breed":"german sheppard",
+  "name":"dood",
+  "owner":"Arnold",
+  
+},
+{
+  "breed":"pug",
+  "name":"bro",
+  "owner":"Donald Trump",
+
+},
+{
+"breed":"dashhaund",
+"name":"man",
+"owner":"Jimi Hendrix",
+
+},
+{
+"breed":"Rottweiler",
+"name":"hoser",
+"owner":"John Lennon",
+
+},
+{
+"breed":"australian sheppard",
+"name":"guy",
+"owner":"OJ Simpson",
+}
+]
