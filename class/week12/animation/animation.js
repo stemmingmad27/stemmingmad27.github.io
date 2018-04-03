@@ -138,10 +138,10 @@ canvas.width = screen.availWidth;
 canvas.height = screen.availHeight;
 //a bunch of sprite data
 var spriteImages = [{
-    "spriteMapUrl": "images/coin-sprite-animation.png",
-    "numFrames": 10,
-    "width": 1000,
-    "height": 100,
+    "spriteMapUrl": "images/Untitled-1.png",
+    "numFrames": 7,
+    "width": 1584,
+    "height": 288,
     "name": "coin"
   },
   {
